@@ -1,0 +1,332 @@
+I copied a friend's version of expalnation because I do not know 
+What this is suppoed to mean.
+My friend's link is https://github.com/yunhao981/cs61b/blob/master/lab1/explanation.txt
+
+The real part of this lad is done by myself alone!
+
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@lishuangshan 
+1
+0 0 yunhao981/cs61b
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+cs61b/lab1/explanation.txt
+@yunhao981 yunhao981 added long long explanation
+32ded0e on Sep 25, 2018
+297 lines (190 sloc)  8.17 KB
+    
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+ggvGyG20p
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+cs61b public
+
+I'm a junior in Shanghai Ocean University. My major is Software Engineering. 
+I want to learn more about Data Structure.
+I've started to follow this course yesterday (September 24 GMT +8:00).
+Trying to upload lab1 files to the autograder but failed.
+I'll appreciate it very much if the autograder accept my upload.
+
+ಠ_ಠ
+
+still not long enough
+
+trying to repeat for several times
+
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
