@@ -1,0 +1,58 @@
+git clone <github url>
+*copy and download a repository from github so that you could *use it on your local devices
+
+git add <filename>
+*in the repository, once you make a change to a certain file you 
+*could add that file to the "stage". This allows git to store *the change in the specific file the next time it "commit" (*commit means store a version of the repository). Note that you could use git add * to include all the files that are modified this time.
+
+git diff
+*when you just finihshed making modifications to files and you *have not used any add or commit, you could use diff to tell you *so far what changes you have made.
+
+git commit -m "message"
+*save all the changes that are on the stage as a new version of *this repository.
+
+git commit -am "message"
+*a powerful way to combine add and commit. Using this command, *you could automatically add all the modified files to the stage *and immediately commit them to get a new version of you *repository!
+
+git push
+*once you have your own new versions, you could use git push to *send these versions to the github's version of this repository *for others to see.
+
+git pull
+*the exact opposite of git push
+
+merge conflicts
+*check online
+
+git log
+*show you the history of all the commits you made with sepecific *informations.
+
+git reset>
+
+	git reset --hard <commit identifier>
+	*go back to a previous commit
+	git reset --hard origin/master
+	*go back to remote repository version
+*after you go back you a certain version of commit, all commits *after that goes away
+
+git branch
+*show you all the current branched that exist on the repository
+
+git branch <branch_name>
+*create a new branch with the name of <branch_name>
+
+git checkout <branch_name>
+*take you to a cartain branch specified by the name of <branch_name>
+
+git checkout -b <branch_name>
+*create a new branch and switch to it!
+
+git merge <branch_name>
+*merge the <branch-name> with the branch that you are currently *on
+*Sometimes you need to deal with merge conflict in this case
+
+git branch -D <branch_name>
+*delete a branch once you feel it is of no use
+
+
+
+
