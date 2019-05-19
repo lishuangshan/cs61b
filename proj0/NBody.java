@@ -14,8 +14,8 @@ public class NBody {
 		double time = 0;
 
 		while(time < T) {
-			double[] xForces = new double[5];
-			double[] yForces = new double[5];
+			double[] xForces = new double[someBodies.length];
+			double[] yForces = new double[someBodies.length];
 			for(int i = 0; i < someBodies.length; i++) {
 				xForces[i] = someBodies[i].calcNetForceExertedByX(someBodies);
 				yForces[i] = someBodies[i].calcNetForceExertedByY(someBodies);	
@@ -56,11 +56,6 @@ public class NBody {
 
 
 	}
-
-
-
-
-
 
 
 	public static double readRadius(String fileName) {
