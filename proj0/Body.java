@@ -86,6 +86,35 @@ public class Body {
 		return (force * dy) / distance;
 	} 
 
+	// calcNetForceExertedByX:
+		// take in an array of Bodys and calculates the net X force exerted 
+		// by all bodies in that array upon the current Body.
+		// The method must avoid working on the object itself or the univer will collapse
+	public double calcNetForceExertedByX(Body[] allBodys) {
+		double netForceX = 0;
+		for(Body b : allBodys) {
+			if(this.equals(b)) {
+				continue;
+			}
+			netForceX += this.calcForceExertedByX(b);
+		}
+		return netForceX;
+	}
+
+	// calcNetForceExertedByY:
+		// take in an array of Bodys and calculates the net Y force exerted 
+		// by all bodies in that array upon the current Body.
+		// The method must avoid working on the object itself or the univer will collapse
+	public double calcNetForceExertedByY(Body[] allBodys) {
+		double netForceY = 0;
+		for(Body b : allBodys) {
+			if(this.equals(b)) {
+				continue;
+			}
+			netForceY += this.calcForceExertedByY(b);
+		}
+		return netForceY;
+	}
 
 
 }
