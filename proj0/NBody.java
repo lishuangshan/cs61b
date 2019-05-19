@@ -10,6 +10,9 @@ public class NBody {
 
 		drawBackground(radius);
 
+		for(Body b : someBodies) {
+			b.draw();
+		}
 	}
 	
 	public static void drawBackground(double radius) {

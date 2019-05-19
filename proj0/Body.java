@@ -128,5 +128,12 @@ public class Body {
 		yyPos += dt * yyVel;
 	}
 
+	public void draw() {
+		StdDraw.enableDoubleBuffering();
+		StdDraw.picture(this.xxPos, this.yyPos, "./images/" + this.imgFileName);
+		StdDraw.show();
+		StdDraw.pause(200);
+	}
+
 
 }
