@@ -4,7 +4,8 @@ public class Body {
 		I'm a bit confused why the guidance asks me to 
 		set them to public instead of private?
 	*/
-
+	// The constant G
+	public static final double G = 6.67e-11;
 	// Its current x position
 	public double xxPos;
 	// Its current y position
@@ -48,11 +49,19 @@ public class Body {
 		Methods
 	*/
 
-	// calcDistance
+	// calcDistance:
+		// This method will take in a single Body and should
+		// return a double equal to the distance between the supplied body and the body that is doing the calculation
 	public double calcDistance(Body b) {
 		double dxSq = Math.pow((this.xxPos - b.xxPos), 2);
 		double dySq = Math.pow((this.yyPos - b.yyPos), 2);
 		return Math.sqrt((dxSq + dySq));
+	}
+	// calcForceExertedBy:
+		// This method takes in a Body and returns a double
+		// describing the force exerted on this body by the given body
+	public double calcForceExertedBy(Body b) {
+		return (G * this.mass * b.mass) / Math.pow(this.calcDistance(b), 2);
 	}
 
 
