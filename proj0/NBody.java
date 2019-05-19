@@ -8,20 +8,51 @@ public class NBody {
 		double radius = readRadius(filename);
 		Body[] someBodies = readBodies(filename);
 
-		drawBackground(radius);
 
-		for(Body b : someBodies) {
-			b.draw();
+		StdDraw.enableDoubleBuffering();
+
+		double time = 0;
+
+		while(time < T) {
+			double[] xForces = new double[5];
+			double[] yForces = new double[5];
+			for(int i = 0; i < someBodies.length; i++) {
+				xForces[i] = someBodies[i].calcNetForceExertedByX(someBodies);
+				yForces[i] = someBodies[i].calcNetForceExertedByY(someBodies);	
+			}
+
+			for(int i = 0; i < someBodies.length; i++) {
+				someBodies[i].update(dt, xForces[i], yForces[i]);	
+
+			}
+			
+			drawBackground(radius);
+
+			for(Body b : someBodies) {
+				b.draw();
+			}
+
+			StdDraw.show();
+			StdDraw.pause(10);
+			time += dt;
 		}
+		StdOut.printf("%d\n", someBodies.length);
+		StdOut.printf("%.2e\n", radius);
+		for (int i = 0; i < someBodies.length; i++) {
+    		StdOut.printf("%11.4e %11.4e %11.4e %11.4e %11.4e %12s\n",
+            someBodies[i].xxPos, someBodies[i].yyPos, someBodies[i].xxVel,
+            someBodies[i].yyVel, someBodies[i].mass, someBodies[i].imgFileName);   
+		}
+
+
 	}
 	
 	public static void drawBackground(double radius) {
-		StdDraw.enableDoubleBuffering();
 
 		StdDraw.setScale(-radius, radius);
-		StdDraw.clear();
+
 		StdDraw.picture(0, 0, "./images/starfield.jpg/", 2 * radius, 2 * radius);
-		StdDraw.show();
+
 
 
 	}
