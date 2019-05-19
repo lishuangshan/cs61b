@@ -64,6 +64,17 @@ public class Body {
 		return (G * this.mass * b.mass) / Math.pow(this.calcDistance(b), 2);
 	}
 
+	// calcForceExertedByX:
+		// Describes the force exerted in the X direction by a given Body
+		// I shouln't use Math.abs to get the absolute value since it migh cause 
+		// troubles when I try drawing planet, said by the guidance
+	public double calcForceExertedByX(Body b) {
+		double dx = b.xxPos - this.xxPos;
+		double force = this.calcForceExertedBy(b);
+		double distance = this.calcDistance(b);
+		return (force * dx) / distance;
+	} 
+
 
 
 }
