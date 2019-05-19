@@ -116,5 +116,17 @@ public class Body {
 		return netForceY;
 	}
 
+	// update:
+		//returns nothing. update the velocity and position of an object
+		// when it was hit by a net force!
+	public void update(double dt, double fx, double fy) {
+		double ax = fx / this.mass;
+		double ay = fy / this.mass;
+		xxVel += dt * ax;
+		yyVel += dt * ay;
+		xxPos += dt * xxVel;
+		yyPos += dt * yyVel;
+	}
+
 
 }
