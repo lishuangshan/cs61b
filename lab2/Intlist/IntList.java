@@ -50,6 +50,10 @@ public class IntList {
     public static IntList squareListIterative(IntList L) {
         if (L == null) {
             return null;
+            /**
+                Remember that a 'return' automatically ends the method, so you don't
+                need to write a 'else' after this 'if'
+             */
         }
         IntList res = new IntList(L.first * L.first, null);
         IntList ptr = res;
@@ -82,7 +86,31 @@ public class IntList {
 
     public static IntList dcatenate(IntList A, IntList B) {
         //TODO:  fill in method
-        return null;
+        if(A == null) {
+            return B;
+        }
+        if(A.rest == null) {
+            A.rest = B;
+            return A;
+        }
+        dcatenate(A.rest, B);
+        return A;
+        /**
+         * It is not easy to get this down since it is the first time I wrote a recursive function!
+         * Here is my mind map:
+         * At first I wanted to return dcatenate(....) because that is the pattern I previously saw.
+         * In the pattern it is always like:
+         *          $base case
+         *          $call the function again
+         * But here it is not the case!!
+         * The instruction clearly stated that I cannot create new intList and that I can modify A.
+         * This implies that i should return A after I add B to the tail of A!!!!!!
+         * so the leap of faith part of this function is not simply return the function!
+         * It is:
+         *          $call the function again to take care of the n-1 step
+         *          $Believing that the n-1 step has been taken care of (leap of faith!) I can simple return A
+         *          $Because now the A list is what we want!
+         * */
     }
 
     /**
@@ -91,7 +119,18 @@ public class IntList {
      */
     public static IntList catenate(IntList A, IntList B) {
         //TODO:  fill in method
-        return null;
+        if(A == null) {
+            return B;
+        }
+        if(A.rest == null) {
+            return new IntList(A.first, B);
+        }
+        return new IntList(A.first, catenate(A.rest, B));
+        /**
+         * Same logic here! But this time it looks like the pattern right? return some thing new.
+         * The key is also that you have to believe everything else is taken take of (namely the n-1 step)
+         * You simply need to worry about the one last step!
+         * */
     }
 
 
